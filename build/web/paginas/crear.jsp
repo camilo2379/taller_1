@@ -92,8 +92,8 @@
                           </li>
                         </ul>
                       </li>
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="../about.html">Nosotros</a></li>
+                      <li><a href="../contact.html">Contacto</a></li>
                     </ul>
                   </div>
                 </nav>
@@ -184,7 +184,11 @@
               </div>
                   <div class="row form-group">
                   <label class="font-weight-bold" for="name">Tipo de Cliente</label>
-                  <input type="number" name="tipop" id="fullname" class="form-control" placeholder="1. Cliente o 2. Administrador o 3. Otro">
+                  <select type="number" name="tipop"  id="fullname" class="form-control" placeholder="1. Cliente o 2. Administrador o 3. Otro" >
+                      <option selected="selected">1</option>
+                      <option selected="selected">2</option>
+                      <option selected="selected">3</option>
+                  </select>   
                 </div>
               <div class="row form-group">
                 <div class="col-md-12">

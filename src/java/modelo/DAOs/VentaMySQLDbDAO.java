@@ -31,9 +31,9 @@ public class VentaMySQLDbDAO implements VentaDAO{
                 con = ds.getConnection();
                 stmt = con.createStatement();
                 rta = stmt.execute("insert into venta (numero,"
-                        + "precio_total,id_persona,id_vehiculo)"
+                        + "precio_total,id_persona,id_vehiculo,descripcion,fecha)"
                         + " values ("+v.getNumero()+", '"+v.getPrecio_total()+"', '"+v.getId_persona()+"', "
-                        + "'"+v.getId_vehiculo()+"')");
+                        + "'"+v.getId_vehiculo()+"', '"+v.getDescripcion()+"', '"+v.getFecha()+"')");
                 
         } catch (SQLException e) {
                 e.printStackTrace();
@@ -56,7 +56,7 @@ public class VentaMySQLDbDAO implements VentaDAO{
             
             s = ds.getConnection().createStatement();
             ResultSet rs = s.executeQuery ("select numero,precio_total, "
-                    + "id_persona, id_vehiculo " 
+                    + "id_persona, id_vehiculo,descripcion,fecha " 
                     + " from venta" 
                     + " where numero = " + num);
             while (rs.next())
@@ -66,6 +66,8 @@ public class VentaMySQLDbDAO implements VentaDAO{
                 v.setPrecio_total(rs.getString(2));
                 v.setId_persona(rs.getString(3));
                 v.setId_vehiculo(rs.getString(4));
+                v.setDescripcion(rs.getString(5));
+                v.setFecha(rs.getString(6));
                 datos.add(v);
                 
             }

@@ -39,11 +39,15 @@ public class ControladorBienvenidaVenta extends HttpServlet {
         String preciot = request.getParameter("preciot");
         String cliente = request.getParameter("cliente");
         String vehiculo = request.getParameter("vehiculo");
+        String descripcion = request.getParameter("descripcion");
+        String fecha = request.getParameter("fecha");
         VentaDTO venta = new VentaDTO();
         venta.setNumero(num);
         venta.setPrecio_total(preciot);
         venta.setId_persona(cliente);
         venta.setId_vehiculo(vehiculo);
+        venta.setDescripcion(descripcion);
+        venta.setFecha(fecha);
         DataSource ds = null;
         
         ds = MyDataSourceFactory.getMySQLDataSource();

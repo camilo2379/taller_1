@@ -144,6 +144,18 @@
                   <input type="text" name="vehiculo" id="fullname" class="form-control" placeholder="Id de vehiculo">
                 </div>
               </div>
+                  <div class="row form-group">
+                <div class="col-md-12 mb-3 mb-md-0">
+                  <label class="font-weight-bold" for="name">Descripcion </label>
+                   <textarea name="descripcion" id="message" cols="30" rows="5" class="form-control" placeholder="Descripcion"></textarea>
+                </div>
+              </div>
+                  <div class="row form-group">
+                <div class="col-md-12 mb-3 mb-md-0">
+                  <label class="font-weight-bold" for="name">Fecha de venta</label>
+                  <input type="date" name="fecha" id="fullname" class="form-control" placeholder="fecha">
+                </div>
+              </div>
               <div class="row form-group">
                 <div class="col-md-12">
                   <input type="submit" value="Registrar" class="btn btn-primary pill px-4 py-2">

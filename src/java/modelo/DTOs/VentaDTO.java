@@ -13,6 +13,8 @@ public class VentaDTO {
     String precio_total = "";
     String id_persona = "";
     String id_vehiculo = "";
+    String descripcion="";
+    String fecha="";
     public String getNumero() {
         return numero;
     }
@@ -36,11 +38,25 @@ public class VentaDTO {
         this.id_persona = id_persona;
     }
       public String getId_vehiculo() {
-        return id_persona;
+        return id_vehiculo;
     }
 
     public void setId_vehiculo(String id_vehiculo) {
         this.id_vehiculo = id_vehiculo;
+    }
+          public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+           public String getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
     }
 
 }

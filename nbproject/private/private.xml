@@ -2,25 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/taller_1/src/java/modelo/DAOs/PersonaMySQLDbDAO.java</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/taller_1/web/paginas/crearVenta.jsp</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/taller_1/web/index.html</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/taller_1/src/java/modelo/DTOs/VehiculoDTO.java</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/taller_1/web/paginas/consultarVehiculo.jsp</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/taller_1/web/paginas/respuestaConsulta.jsp</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/taller_1/web/paginas/consultarVenta.jsp</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/taller_1/web/paginas/respuestaVehiculo.jsp</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/taller_1/src/java/controladores/ControladorBienvenidaVenta.java</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/taller_1/web/paginas/crearVehiculo.jsp</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/taller_1/src/java/modelo/DTOs/PersonaDTO.java</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/taller_1/web/paginas/respuesta.jsp</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/taller_1/src/java/controladores/ControladorConsultaVenta.java</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/taller_1/web/paginas/respuestaVenta.jsp</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/taller_1/web/about.html</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/taller_1/web/paginas/crear.jsp</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/taller_1/web/paginas/consultar.jsp</file>
-            <file>file:/C:/Users/MAC/Documents/ProyectoTaller/taller_1/web/contact.html</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

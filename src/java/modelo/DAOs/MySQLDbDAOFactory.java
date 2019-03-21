@@ -18,7 +18,7 @@ public class MySQLDbDAOFactory extends DAOFactory{
     "oracle.jdbc.OracleDriver";
   public static final String DBURL=
     "jdbc:oracle:thin:@[host]:[port]:[sid]";
- 
+  public static MysqlDataSource instance;
   // method to create Cloudscape connections
   public static Connection createConnection() throws SQLException {
     MysqlDataSource mysqlDS = null;
@@ -43,5 +43,7 @@ public class MySQLDbDAOFactory extends DAOFactory{
    public VentaDAO getVentaDAO() {
     // OracleDbCustomerDAO implements CustomerDAO
    return new VentaMySQLDbDAO();
-  }  
+  } 
+
 }
+

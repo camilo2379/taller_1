@@ -6,6 +6,8 @@
 package controladores;
 
 import java.io.IOException;
+import java.io.PrintWriter;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -22,7 +24,6 @@ import util.MyDataSourceFactory;
  * @author sala8
  */
 public class ControladorBienvenida extends HttpServlet {
-
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -35,7 +36,6 @@ public class ControladorBienvenida extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         System.out.println("Llegue al controlador....");
-        
         String id = request.getParameter("identificacion");
         String nombre1 = request.getParameter("nombre1");
         String nombre2 = request.getParameter("nombre2");
@@ -72,7 +72,8 @@ public class ControladorBienvenida extends HttpServlet {
         request.setAttribute("parametroservlet", nombre1);
         RequestDispatcher rd = request.getRequestDispatcher("./paginas/respuesta.jsp");
         rd.forward(request, response);
-        
+        response.setContentType("text/plain;charset=UTF-8");
+
         //response.sendRedirect("./paginas/respuesta.jsp");
     }
 
